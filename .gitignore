@@ -2,3 +2,4 @@
 err.log
 debug.log
 *.pyc
+.cache
