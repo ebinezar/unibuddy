@@ -1,0 +1,4 @@
+.vscode
+err.log
+debug.log
+*.pyc
