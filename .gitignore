@@ -3,3 +3,4 @@ err.log
 debug.log
 *.pyc
 .cache
+.pytest_cache
