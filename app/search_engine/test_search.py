@@ -17,7 +17,7 @@ class SearchJsonTest(unittest.TestCase):
 
 	def test_with_valid_query(self):
 		response = Search.execute(self.valid_query, self.records_count)
-		assert len(response) == self.records_count
+		assert len(response) <= self.records_count
 
 
 if __name__ == '__main__':

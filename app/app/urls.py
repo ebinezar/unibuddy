@@ -17,5 +17,5 @@ from django.conf.urls import url
 from app.views import Books
 
 urlpatterns = [
-    url(r'^books/find$', Books.as_view()),
+    url(r'^books/find$', Books.as_view(), name="books_find"),
 ]
