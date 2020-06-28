@@ -11,12 +11,14 @@ The backend project is all about searching the books based on the user input que
 `>> pip install -r requirement.txt`
 
 ## Test Cases
-## Go to search engine directory and run 
+Go to search engine directory and run 
+
 `>> cd app/search_engine/`
 `>> pytest -s`
 
 ## To Start Django app
-## Go to app directory and run
+Go to app directory and run
+
 `>> cd app/`
 `>> python manage.py runserver`
 
